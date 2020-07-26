@@ -1,0 +1,27 @@
+{
+  "name": "NonFoundrySignalRClient",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "author": "Mirko",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/signalr": "^3.1.6",
+    "node": "^14.5.0"
+  },
+  "private": "true",
+  "devDependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "3.4.2",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.5",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --mode=development --watch",
+    "release": "webpack --mode=production && node ./dist/main.js",
+    "publish": "yarn run release && node ./dist/main.js"
+  }
+}

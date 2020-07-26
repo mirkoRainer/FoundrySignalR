@@ -1,0 +1,12 @@
+{
+    "name": "foundry-signalR-Actors",
+    "title": "SignalR - Send Actors to other Apps",
+    "description": "A POC to use SignalR and publish actor data as it changes. This would allow outside applications to consume the data.",
+    "author": "mirkoRainer#3102",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.6.5",
+    "esmodules": [
+        "dist/main.js"
+    ],
+    "url": "https://github.com/mirkorainer"
+}

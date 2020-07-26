@@ -1,0 +1,22 @@
+{
+  "name": "foundry-signalR-Actors",
+  "version": "0.0.1",
+  "description": "SignalR for FoundryVTT",
+  "author": "Mirko Rainer",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@microsoft/signalr": "^3.1.6",
+    "copy-webpack-plugin": "^6.0.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "3.4.2",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.5",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
