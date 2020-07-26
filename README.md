@@ -15,3 +15,7 @@ See the MSFT docs for more info on SignalR:
     https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-3.1
     https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio-code
 
+PoC Video
+https://youtu.be/puECQqE4_TQ
+
+You can find me in the [FoundryVTT Discord](https://discordapp.com/invite/DDBZUDf): mirkoRainer#3102
